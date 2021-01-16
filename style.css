@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.container h1 {
+    margin-top: 20px;
+}
+
+
+.input-fild {
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.input-fild input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+.input-fild .btn-add {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px;
+    border-color: #28a745;
+    border-radius: .25rem;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+
+
+
+
+.list ul {
+    margin-top: 40px;
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+    
+}
+
+.list ul li {
+    margin-top: 10px;
+}
+
+.list ul li input {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+.list h3 {
+    border-bottom: 3px solid #fff;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.todo-list {
+
+    position: relative;
+}
+
+.completed-list {
+    position: relative;
+}
+
+.delete {
+    background-color: #fe4365;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: .25rem;
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+}
